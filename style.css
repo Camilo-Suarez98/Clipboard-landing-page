@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* Strong cyan: hsl(171, 66%, 44%) */
+/* Light blue: hsl(233, 100%, 69%) */
+/* Dark Grayish Blue: hsl(210, 10%, 33%) */
+/* Grayish Blue: hsl(201, 11%, 66%) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    width: 1440px;
+    height: 3350px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.all {
+    width: 1440px;
+    text-align: center;
+}
+
+.all .first-part {
+    width: 650px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.all .first-part .page-logo {
+    width: 150px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.all .first-part .page-logo img {
+    height: 90px;
+    width: 90px;
+}
+
+.all .first-part .first-text {
+    margin-top: 40px;
+}
+
+.all .first-part .first-text h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 38px;
+}
+
+.all .first-part .first-text p {
+    margin-top: 15px;
+    color: hsl(201, 11%, 66%);
+}
+
+.all .first-part .buttons {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.all .first-part .buttons .button {
+    height: 40px;
+    width: 170px;
+    margin: 3px;
+    border-radius: 30px;
+}
+
+.all .first-part .buttons .button:hover {
+    cursor: pointer;
+}
+
+.all .first-part .buttons .green-button {
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    border: 1px solid hsl(171, 66%, 44%);
+    border-bottom: 3px solid hsl(171, 65%, 37%);
+}
+
+.all .first-part .buttons .purple-button {
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    border: 1px solid hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsl(233, 51%, 53%);
+}
+
+/* Start second part */
+
+.all .second-part {
+    margin-top: 80px;
+    height: 800px;
+}
+
+.all .second-part .second-text {
+    width: 650px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.all .second-part .second-text h3 {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+.all .second-part .second-text p {
+    color: hsl(201, 11%, 66%);
+}
+
+.all .second-part .features {
+    display: flex;
+}
+
+.all .second-part .features .image-pc {
+    height: 600px;
+    width: 750px;
+}
+
+.all .second-part .features .image-pc img {
+    width: 690px;
+}
+
+.all .second-part .features .different-features {
+    height: 470px;
+    width: 390px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.all .second-part .features .different-features .equal-features {
+    line-height: 35px;
+}
+
+.all .second-part .features .different-features .equal-features h4{
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+
+.all .second-part .features .different-features .equal-features p {
+    color: hsl(201, 11%, 66%);
+}
+
+
+/* Start third part */
+
+
+.all .third-part {
+    margin-top: 30px;
+    height: 800px;
+}
+
+.all .third-part .third-text {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.all .third-part .third-text .just-text {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.all .third-part .third-text .just-text h3 {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+    margin: 15px;
+}
+
+.all .third-part .third-text .just-text p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.all .third-part .third-text .devices-images {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+
+/* Start the fourth part */
+
+
+.all .fourth-part {
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.all .fourth-part .workflow {
+    line-height: 40px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.all .fourth-part .workflow h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+
+.all .fourth-part .workflow p {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+}
+
+.all .fourth-part .options {
+    display: flex;
+}
+
+.all .fourth-part .options .option {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+
+.all .fourth-part .options .option img {
+    margin-bottom: 30px;
+}
+
+.all .fourth-part .options .option h4 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.all .fourth-part .options .option p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+
+/* Start the part of the icons */
+
+
+.all .icons {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.all .icons .icon {
+    width: 200px;
+    height: 50px;
+}
+
+.all .icons .icon img {
+    width: 160px;
+    height: 50px;
+}
+
+
+/* Start the fifth part */
+
+
+.all .fifth-part {
+    height: 320px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.all .fifth-part h2 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+.all .fifth-part p {
+    margin-top: 25px;
+    color: hsl(201, 11%, 66%);
+}
+
+.all .fifth-part .buttons {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.all .fifth-part .buttons .button {
+    height: 40px;
+    width: 170px;
+    margin: 3px;
+    border-radius: 30px;
+}
+
+.all .fifth-part .buttons .button:hover {
+    cursor: pointer;
+}
+
+.all .fifth-part .buttons .green-button {
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    border: 1px solid hsl(171, 66%, 44%);
+    border-bottom: 3px solid hsl(171, 65%, 37%);
+}
+
+.all .fifth-part .buttons .purple-button {
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    border: 1px solid hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsl(233, 51%, 53%);
+}
+
+
+/* Start the final part of the page */
+
+
+.all .final-part {
+    height: 150px;
+    width: 1440px;
+    background-color: hsl(192, 14%, 93%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all .final-part .logo-final {
+    height: 60px;
+    width: 60px;
+}
+
+.all .final-part .logo-final img {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.all .final-part .contact {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.all .final-part .contact .options-contact {
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+.all .final-part .contact .press {
+    margin-left: 30px;
+}
+
+.all .final-part .contact a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.all .final-part .contact a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.all .final-part .social {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all .final-part .social a {
+    color: hsl(210, 10%, 33%);
+}
+
+.all .final-part .social a:hover {
+    color: hsl(171, 66%, 44%);
+    
+}
+
+
+/* Start the responsive part */
+
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        height: 5000px;
+        margin: 0 auto;
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
+    
+    .all {
+        width: 375px;
+    }
+    
+    .all .first-part {
+        width: 350px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    
+    .all .first-part .first-text {
+        margin-top: 50px;
+    }
+
+    .all .first-part .first-text h1 {
+        margin: 0 auto;
+        font-size: 30px;
+        width: 300px;
+    }
+    
+    .all .first-part .first-text p {
+        width: 345px;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    
+    .all .first-part .buttons {
+        width: 350px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    .all .first-part .buttons .button {
+        height: 50px;
+        width: 330px;
+        margin: 10px;
+        font-size: 18px;
+    }
+    
+    
+    /* Start second part */
+
+    
+    .all .second-part {
+        margin-top: 130px;
+        height: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .all .second-part .second-text {
+        width: 350px;
+        height: 230px;
+    }
+    
+    .all .second-part .second-text p {
+        margin-top: 20px;
+    }
+    
+    .all .second-part .features {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+    }
+    
+    .all .second-part .features .image-pc {
+        height: 280px;
+        width: 360px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    .all .second-part .features .image-pc img {
+        width: 330px;
+    }
+    
+    .all .second-part .features .different-features {
+        height: 470px;
+        width: 340px;
+        margin-left: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .all .second-part .features .different-features .equal-features {
+        line-height: 30px;
+    }
+    
+    .all .second-part .features .different-features .equal-features h4{
+        font-size: 25px;
+    }
+    
+    .all .second-part .features .different-features .equal-features p {
+        margin-top: 20px;
+    }
+
+    .all .second-part .features .different-features .icloud {
+        margin-top: 50px;
+    }
+
+    .all .second-part .features .different-features .history {
+        margin-top: 50px;
+    }
+    
+
+    /* Start third part */
+
+    
+    .all .third-part {
+        margin-top: 130px;
+        height: 600px;
+    }
+    
+    .all .third-part .third-text {
+        height: 600px;
+    }
+    
+    .all .third-part .third-text .just-text {
+        width: 350px;
+        margin: 0 auto;
+    }
+    
+    .all .third-part .third-text .devices-images {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .all .third-part .third-text .devices-images img {
+        width: 340px;
+    }
+    
+
+    /* Start the fourth part */
+    
+
+    .all .fourth-part {
+        width: 360px;
+        height: 1200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .all .fourth-part .workflow {        
+        width: 350px;
+        margin-bottom: 100px;
+    }
+    
+    .all .fourth-part .workflow p {
+        font-size: 17px;
+        width: 330px;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    
+    .all .fourth-part .options {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .all .fourth-part .options .option {
+        margin: 0 auto;
+        width: 345px;
+        height: 300px;
+    }
+    
+    .all .fourth-part .options .option img {
+        margin-bottom: 40px;
+    }
+    
+    .all .fourth-part .options .option h4 {
+        font-size: 30px;
+    }
+    
+    .all .fourth-part .options .option p {
+        line-height: 30px;
+    }
+    
+
+    /* Start the part of the icons */
+    
+
+    .all .icons {
+        width: 350px;
+        margin: 0 auto;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    
+
+    /* Start the fifth part */
+    
+
+    .all .fifth-part {        
+        width: 350px;
+        height: 570px;     
+    }
+    
+    .all .fifth-part p {
+        width: 325px;
+        margin: 0 auto;
+        margin-top: 25px;
+        line-height: 30px;
+    }
+    
+    .all .fifth-part .buttons {
+        width: 350px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    .all .fifth-part .buttons .button {
+        height: 50px;
+        width: 330px;
+        margin: 10px;
+        font-size: 18px;
+    }
+    
+    
+    /* Start the final part of the page */
+
+    
+    .all .final-part {
+        height: 550px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .all .final-part .logo-final {
+        margin-top: 20px;
+    }
+
+    .all .final-part .logo-final img {
+        margin-left: 0;
+    }
+    
+    .all .final-part .contact {
+        width: 300px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 60px;
+    }
+    
+    .all .final-part .contact .press {
+        margin: 0;
+        margin-left: 20px;
+    }
+    
+    .all .final-part .social {
+        width: 170px;
+        margin-bottom: 30px;
+    }
+}
